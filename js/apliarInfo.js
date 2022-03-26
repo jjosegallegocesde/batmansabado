@@ -12,6 +12,6 @@ export function ampliarInformacion(evento){
     tituloFoto.textContent=producto.nombre
 
 
-    return producto
+   return producto
 
 }
