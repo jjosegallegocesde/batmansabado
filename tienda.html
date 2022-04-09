@@ -32,7 +32,7 @@
 
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active" aria-current="page" href="#" id="botoncarrito">
                   <i class="bi bi-cart4 icono"></i>
                   <span id="capsula" class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger invisible">
                     99+
@@ -84,7 +84,30 @@
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
               <button id="botonAdd" type="button" class="btn btn-primary">Añadir al carrito</button>
-              <button id="limpiar" type="button" class="btn btn-primary">Añadir al carrito</button>
+              <button id="limpiar" type="button" class="btn btn-primary">Limpiar Carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Modal -->
+      <div class="modal fade" id="resumenCarrito" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">TIENDA DC</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container" id="contenedorventa">
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
             </div>
           </div>
         </div>
